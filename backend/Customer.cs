@@ -6,32 +6,32 @@ namespace backend
     {
         public int id;
         public string name;
-        public Int32 phoneNumber;
+        public Int64 phoneNumber;
         public string birthDay;
 
-        public Customer(int id, string name, string birthDay, Int32 phoneNumber) 
+        public Customer(int currentUsers, string name, string birthDay, Int64 phoneNumber) 
         {
-            id = this.id;
+            id = currentUsers+1;
             name = this.name;
             birthDay = this.birthDay;
             phoneNumber = this.phoneNumber;
         }
 
-        public Customer(int id) 
+        public Customer(int currentUsers) 
         {
-            id = this.id;
-            Console.WriteLine("Please enter your name: ");
+            id = currentUsers+1;
+            Console.Write("Please enter your name: ");
             name = Console.ReadLine();
-            Console.WriteLine("Please enter your birthday: ");
+            Console.Write("Please enter your birthday: ");
             birthDay = Console.ReadLine();
-            Console.WriteLine("Please enter your phonenumber: ");
+            Console.Write("Please enter your phonenumber: ");
             do
             {
                 try    
                 {
-                    phoneNumber = Int32.Parse(Console.ReadLine());
+                    phoneNumber = Int64.Parse(Console.ReadLine());
                 } catch {
-                    Console.WriteLine("This is not a valid phone number. Please try again.");
+                    Console.Write("This is not a valid phone number. Please try again: ");
                 }
             } while(phoneNumber == 0);
         }
