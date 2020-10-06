@@ -19,6 +19,7 @@ namespace ConsoleTest
                     {
                         CurrentAccount cAcc = new CurrentAccount();
                         valid = true;
+                        // cAcc.addCustomer();
                     } 
                     else if (choice == 2)
                     {

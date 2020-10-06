@@ -7,3 +7,12 @@ C:\Users\Goaway\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\obj\Debug
 C:\Users\Goaway\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\obj\Debug\netstandard2.0\backend.csproj.CoreCompileInputs.cache
 C:\Users\Goaway\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\obj\Debug\netstandard2.0\backend.dll
 C:\Users\Goaway\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\obj\Debug\netstandard2.0\backend.pdb
+C:\Users\Milo\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\bin\Debug\netstandard2.0\backend.deps.json
+C:\Users\Milo\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\bin\Debug\netstandard2.0\backend.dll
+C:\Users\Milo\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\bin\Debug\netstandard2.0\backend.pdb
+C:\Users\Milo\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\obj\Debug\netstandard2.0\backend.csprojAssemblyReference.cache
+C:\Users\Milo\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\obj\Debug\netstandard2.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\Milo\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\obj\Debug\netstandard2.0\backend.AssemblyInfoInputs.cache
+C:\Users\Milo\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\obj\Debug\netstandard2.0\backend.AssemblyInfo.cs
+C:\Users\Milo\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\obj\Debug\netstandard2.0\backend.dll
+C:\Users\Milo\OneDrive\Bachelor jaar 2\C# .NET\Labo's\myBank\backend\obj\Debug\netstandard2.0\backend.pdb

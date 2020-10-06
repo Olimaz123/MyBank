@@ -18,5 +18,15 @@ namespace backend
             }
             accountNr = Int64.Parse(temp);
         }
+
+        public void WithdrawMoney(decimal money)
+        {
+            balance -= money;
+        }
+
+        public void DepositMoney(decimal money)
+        {
+            balance += money;
+        }
     }
 }
