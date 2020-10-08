@@ -10,7 +10,7 @@ namespace backend
             savings = true;
             accountType = "savings account";
             accountNr = (1230000000 + r.Next(1000000,9999999));
+            Console.WriteLine(accountNr);
         }
-
     }
 }

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xoDY7fPOTAakdAmpZpbsqOQg2vfwpqPoaL3YOC2u1u5UpxNMUfBGkuicUGbtSClxQboYfXgZYAJU/5ilvPLs3w==",
+  "dgSpecHash": "JyF0PjWjl4t2+BBL5VawK2Q2Ilz+CL7nWXUw5KGtwPqIrJdBqEQ35wW0oB4MOdJC0wQzx9YKvs8XCmdIZudrAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Goaway\\OneDrive\\Bachelor jaar 2\\C# .NET\\Labo's\\myBank\\backend\\backend.csproj",
+  "projectFilePath": "C:\\Users\\Milo\\OneDrive\\Bachelor jaar 2\\C# .NET\\Labo's\\myBank\\backend\\backend.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Milo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Milo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

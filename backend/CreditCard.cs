@@ -7,7 +7,7 @@ namespace backend
 
         public void WithdrawMoney(decimal money)
         {
-            balance -= money;
+            
         }
         
     }

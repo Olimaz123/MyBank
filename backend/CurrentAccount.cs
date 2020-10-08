@@ -17,6 +17,7 @@ namespace backend
                 temp += r.Next(0,9);
             }
             accountNr = Int64.Parse(temp);
+            Console.WriteLine(accountNr);
         }
 
         public void WithdrawMoney(decimal money)

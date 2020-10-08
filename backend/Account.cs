@@ -10,23 +10,31 @@ namespace backend
         public decimal balance {get; set;}
         public List<Customer> customers;
 
-        public void addCustomer()
+        public void addCustomer(int customerCount)
         {
-            Customer c = new Customer(0);
+            Customer c = new Customer(customerCount);
             customers.Add(c);
-            if (c.birthDay < new date()-12 && savings) balance += 50;
+            Console.WriteLine("Customer added");
+            DateTime today = new DateTime();
+            today = DateTime.Today;
+            if (today.Subtract(c.birthDay).TotalDays < 4380) balance += 50;
         }
 
         public Customer indexer(int index)
         {
-            return customers<index>;
+            return customers[index];
         }
 
-        static checkNumber(Int64 accountNr)
+        static void checkNumber(Int64 accountNr)
         {
-            const numberLenght = 10;
-            if (accountNr.length == numberLenght) Console.Write("This account number is valid"); 
+            const int numberLenght = 10;
+            if (accountNr.ToString().Length == numberLenght) Console.Write("This account number is valid"); 
             else Console.Write("This account number is not valid");
+        }
+
+        public int getCustomerCount()
+        {
+            return customers.Count;
         }
     }
 }   

@@ -7,11 +7,11 @@ namespace backend
     {
         public int id;
         public string name;
-        public Int64 phoneNumber;
-        public date birthDay;
-        public List<Card> cards;
+        public int phoneNumber;
+        public DateTime birthDay;
+        // public List<Card> cards;
 
-        public Customer(int currentUsers, string name, date birthDay, Int64 phoneNumber) 
+        public Customer(int currentUsers, string name, DateTime birthDay, int phoneNumber) 
         {
             id = currentUsers+1;
             name = this.name;
@@ -29,18 +29,18 @@ namespace backend
             {
                 try
                 {
-                    birthDay = date.Parse(Console.ReadLine());
+                    birthDay = DateTime.Parse(Console.ReadLine());
                 } catch {
                     Console.Write("This is not a valid date. Please try again: ");
                 }
-            } while(birthDay = null);
+            } while(birthDay == default(DateTime));
 
             Console.Write("Please enter your phonenumber: ");
             do
             {
                 try    
                 {
-                    phoneNumber = Int64.Parse(Console.ReadLine());
+                    phoneNumber = int.Parse(Console.ReadLine());
                 } catch {
                     Console.Write("This is not a valid phone number. Please try again: ");
                 }
