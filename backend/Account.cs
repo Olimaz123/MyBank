@@ -8,16 +8,19 @@ namespace backend
         public string accountType;
         public Int64 accountNr {get; set;}
         public decimal balance {get; set;}
-        public List<Customer> customers;
+        public List<Customer> customers = new List<Customer>();
 
-        public void addCustomer(int customerCount)
+        public void addCustomer()
         {
-            Customer c = new Customer(customerCount);
+            Customer c = new Customer(customers.Count);
             customers.Add(c);
             Console.WriteLine("Customer added");
             DateTime today = new DateTime();
             today = DateTime.Today;
-            if (today.Subtract(c.birthDay).TotalDays < 4380) balance += 50;
+            if (today.Subtract(c.birthDay).TotalDays < 4380 && savings == false)
+            {
+                balance += 50;
+            } 
         }
 
         public Customer indexer(int index)

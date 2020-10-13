@@ -4,7 +4,7 @@ namespace backend
 {
     public class CurrentAccount: Account
     {
-        public List<Card> cards;
+        public List<Card> cards = new List<Card>();
 
         public CurrentAccount()
         {
@@ -28,6 +28,16 @@ namespace backend
         public void DepositMoney(decimal money)
         {
             balance += money;
+        }
+
+        public void addCard(Card c)
+        {
+            cards.Add(c);
+        }
+
+        public void removeCard(index i)
+        {
+            cards.Remove(i);
         }
     }
 }
